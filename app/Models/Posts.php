@@ -13,6 +13,6 @@ class posts extends Model
 
     protected static function boot(){
         parent::boot();
-        parent addGlobalScope(new StatusScopes);
+        parent addGlobalScope(new StatusScopes)#name scope;
     }
 }
